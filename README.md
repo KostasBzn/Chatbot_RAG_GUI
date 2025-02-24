@@ -17,7 +17,7 @@ This project implements a chatbot using Retrieval-Augmented Generation (RAG) wit
 
 1. Clone the repository or download the files.
 2. Navigate to the folder containing the password manager files.
-3. Install the required libraries: `pip install pyperclip`
+3. Install the required libraries: `pip install -r requirements.txt`
 4. Create a .env file in the root directory and add your Hugging Face API token: `HUGGINGFACEHUB_API_TOKEN=your_huggingface_api_token_here`
 5. Run `python train_bot.py` to train the chat bot. This will generate a FAISS index in the ./content/ directory.
 6. Run the Chatbot App with `streamlit run app.py`
